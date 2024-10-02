@@ -1,0 +1,43 @@
+
+
+.container {
+    width: 100%;
+    max-width: 50%;
+    
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 25px;
+    
+    border-radius: 50px;
+    border: 12px solid transparent;
+    background:
+    linear-gradient(black,black)padding-box,
+    linear-gradient(
+        45deg,
+        #ff52e5,
+        #f6d242
+    ) border-box;
+    
+    
+    text-align: center; 
+  }
+  
+  .title {
+     background: linear-gradient(45deg, #ff52e5, #f6d242);
+    /* Clip the background to the text */
+    -webkit-background-clip: text;
+    /* Make the text fill transparent */
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem; /* Set the font size */
+  }
+  
+  .subtitle {
+    background: linear-gradient(45deg, #ff52e5, #f6d242);
+    /* Clip the background to the text */
+    -webkit-background-clip: text;
+    /* Make the text fill transparent */
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem; /* Set the font size */ 
+    font-size: 2.5rem; 
+  }
+  
